@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsla(215, 47%, 17%, 0.644)
+}
+
+div.main_nft_div {
+    margin-top: -30px;
+    width: 100%;
+    margin-left: 20px;
+}
+
+div.sub_nft_div {
+    background-color: hsl(215, 32%, 27%);
+    box-shadow: 0px 0px 12px 13px hsl(215, 35%, 17%), 0px 0px 12px 3px hsl(216, 20%, 20%);
+    width: 25%;
+    margin: auto;
+    margin-top: 70px;
+    padding: 5px;
+    padding-top: 18px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+div.nft_content {
+    width: 80%;
+    margin: auto;
+    padding-left: 8px;
+    padding-top: 14px;
+    padding-bottom: 4px;
+}
+
+img.nft_image {
+    border-radius: 7px;
+    box-shadow: 1px 2px 2px 3px hsl(215, 35%, 17%);
+    transition: width 1s, height 1s;
+}
+
+img.nft_image:hover {
+    width: 290px;
+    height: 310px;
+}
+
+.nft_name {
+    font-family: 'Duru Sans';
+    font-weight: bolder;
+}
+
+.nft_desc {
+    font-family: 'Duru Sans';
+    font-weight: 600;
+    font-size: 13px;
+}
+
+table.nft_details_table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.td_left {
+    text-align: left;
+    color: hsl(178, 100%, 50%);
+    font-family: 'Iceberg';
+    font-size: 15px;
+}
+
+.td_right {
+    text-align: right;
+    font-family: 'Iceberg';
+    font-size: 15px;
+    font-weight: 400;
+    color: whitesmoke;
+}
+
+.nft_creator img {
+    border-radius: 60px;
+}
+
+.fspan {
+    position: relative;
+    bottom: 20px;
+    left: 8px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    text-shadow: 0 0 3px hsl(216, 57%, 12%);
+}
+
+.jules {
+    color: aliceblue;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 300px) {
+    div.main_nft_div {
+        width: 280px;
+    }   
+}
+
